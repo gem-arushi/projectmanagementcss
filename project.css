@@ -1,0 +1,13 @@
+body{
+    column-gap: 40px;
+    background-color: aqua;
+}
+.box{
+    margin-left: 15px;
+    align-content: center;
+}
+.button{
+    width: 120px;
+    margin-left: 35px;
+    background-color: gray;
+}

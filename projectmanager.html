@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Project Management
+        </title>
+        <link rel="stylesheet" type="text/css" href="project.css">
+    </head>
+    <body>
+        <h1><u>
+            Project Management
+        </u>
+        </h1>
+        <form>
+            <label for="pname">Project Name</label>
+            <input type="text" id="pname" name="pname" class="box" placeholder="project name"><br><br>
+            <label for="assign">Assigned To</label>
+            <select name="assigned to" id="assign" class="box">
+                <option value="oliva">Oliva</option>
+                <option value="amelia">Amelia</option>
+                <option value="liam">Liam</option>
+                <option value="noah">Noah</option>
+            </select><br><br>
+            <label for="start">Start Date</label>
+            <input type="date" id="start" name="start" class="box"><br><br>
+            <label for="end">End Date</label>
+            <input type="date" id="end" name="end" class="box"><br><br>
+            <label for="priority">Priority</label>
+            <input type="radio" id="high" name="priority" value="high" class="box">
+            <label for="high">High</label>
+            <input type="radio" id="average" name="priority" value="average">
+            <label for="average">Average</label>
+            <input type="radio" id="low" name="priority" value="low">
+            <label for="low">Low</label><br><br>
+            <label for="description">Description</label>
+            <textarea name="description" id="description" rows="10" cols="30" class="box"></textarea><br><br>
+            <input type="submit" value="Submit" class="button">
+            <input type="reset" class="button"> 
+        </form>
+    </body>
+</html>    
